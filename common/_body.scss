@@ -1,4 +1,5 @@
 body {
+	overflow-x: hidden; // Prevents horizontal scroll bug that occurs a lot in IE
 
 	* {
 		// Better defaults for `background` so we can just do background: url(image) and not have to set anything else.
@@ -10,5 +11,4 @@ body {
 		word-break: break-word;
 		word-wrap: break-word;
 	}
-
 }
